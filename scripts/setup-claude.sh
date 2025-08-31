@@ -4,13 +4,13 @@ set -eu
 echo "⚡ Claude dotfiles セットアップ中..."
 
 # CLAUDE.md
-if [ -f ~/dotfiles/claude/CLAUDE.md ]; then
-    # 既存ファイルがあれば削除
-    [ -f ~/.claude/CLAUDE.md ] && rm ~/.claude/CLAUDE.md
-    # シンボリックリンク作成
-    ln -sf ~/dotfiles/claude/CLAUDE.md ~/.claude/CLAUDE.md
-    echo "✅ CLAUDE.md リンク作成"
-fi
+# if [ -f ~/dotfiles/claude/CLAUDE.md ]; then
+#     # 既存ファイルがあれば削除
+#     [ -f ~/.claude/CLAUDE.md ] && rm ~/.claude/CLAUDE.md
+#     # シンボリックリンク作成
+#     ln -sf ~/dotfiles/claude/CLAUDE.md ~/.claude/CLAUDE.md
+#     echo "✅ CLAUDE.md リンク作成"
+# fi
 
 # commands ディレクトリ
 if [ -d ~/dotfiles/claude/commands ]; then
